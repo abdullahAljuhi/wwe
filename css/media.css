@@ -1,0 +1,151 @@
+@media screen and (max-width: 1280px) {
+    .gwd-contain-img-decs{
+        flex-direction: column;
+    }
+    .gwd-img{
+        width: 100%;
+    }
+    .gwd-descrption{
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .posts{
+        margin-right: 0px;
+        width:100% ;
+        padding: 10px;
+    }
+    .post-img{
+        max-width: 40%;
+    }
+    .post img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 930px){
+    nav .content ul,.Subscribe{
+        display: none;
+    }
+    nav .content{
+        justify-content: space-between;
+    }
+    .list{
+        display: block;
+    }
+    .wwe-hightlight-videos--inner .wwe-hightlight-title{
+        width: 50%;
+        padding-left: 3px;
+    }
+    .trendind-news-box{
+        width: 49%;
+        height: 100%;
+    }
+    .trendind-news-box p{
+        margin-top: 0px;
+        padding-right: 0px;
+    }
+    .post{
+        margin-left: 8px;
+    }
+    .footer-logo{
+        width: 100%;
+    }
+}
+@media screen and (max-width:760px){
+    .gwd-social-list{
+        display: none;
+    }
+    .gwd-img-smarck{
+        display: flex;
+        justify-content: center;
+    }
+    .gwd{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row >div{
+        display: flex;
+        margin-bottom:20px ;
+    }
+    .m-rl{
+        margin: 0px 0px 20px;
+    }
+    .vido-with-buttom-desctiptin p{
+        margin-left: 10px;
+    }
+    .trendind-news-box{
+        width: 100%;
+    }
+    .trendind-news-box div:first-child{
+        margin-right: 20px;
+    }
+    .trendind-news-box-desctrtion{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .posts{
+        width: 100%;
+        padding: 1px;
+    }
+    .social-show-sm{
+        display: flex;
+        justify-content: space-between;
+    }
+    .post{
+        margin:0px ;
+    }
+    .post >div:first-child{
+        display: none;
+    }
+    .info{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100%;
+    }
+    .info h2{
+        margin-right: 0;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .details{
+        display: none;
+    }
+    .details-ms{
+        display:block;
+    }
+    .details-ms p,.details-ms{
+        color: black;
+    }
+    .details-ms p{
+        margin-left: 10px;
+    }
+    .dark{
+        display: none;
+    }
+    .post-img{
+        max-width: 100%;
+        width: 100%
+    }
+}
+@media screen and (max-width:520px) {
+    .row >div{
+        flex-direction: column;
+    }
+    .trendind-news-box-desctrtion{
+        flex-direction: row;
+        padding: 10px;
+    }
+    .wwe-news button{
+        display: none;
+        width: 120px;
+        font-size: 12px;
+    }
+    .container{
+        width: 100%;
+    }
+    nav .container{
+        width: 90%;
+    }
+}
